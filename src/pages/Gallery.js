@@ -51,7 +51,7 @@ class Gallery extends Component {
     }
 
      //ini fungsi untuk menambah
-  Add = () => {
+    Add = () => {
     //menampilkan komponen modal
     $("#modal_buku").show()
     this.setState({

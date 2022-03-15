@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import { Image } from 'react-native';
-import Gallery from '../pages/Gallery'
+
 
 class Card extends Component {
   render() {
@@ -15,7 +15,7 @@ class Card extends Component {
 
                     {/* menampilkan deskripsi */}
                     <div className="col-7">
-                        <h5 className="text-info">{this.props.judul}</h5>
+                        <h5 className="text-primary">{this.props.judul}</h5>
                         <h6 className="text-dark">{this.props.penulis}</h6>
                         <h6 className="text-dark">{this.props.penerbit}</h6>
                         <h6 className="text-dark">{this.props.harga}</h6>
