@@ -5,6 +5,7 @@ import {Link, Route, Routes} from "react-router-dom"
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import History from './pages/History';
+import Cart from './pages/Cart';
 
 
 function App() {
@@ -30,8 +31,8 @@ function App() {
               </Link>
             </li>
             <li class="nav-item">
-              <Link to="/Testimoni" className="nav-link" >
-                Testimoni
+              <Link to="/Cart" className="nav-link" >
+                Cart
               </Link>
             </li>
             <li class="nav-item">
@@ -55,7 +56,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/Gallery" element={<Gallery />}></Route>
-          <Route path="/History" element={<History />}></Route>
+          <Route path="/Cart" element={<Cart />}></Route>
+          <Route path="/History" component={<History />}></Route>
       </Routes>
     </>
 

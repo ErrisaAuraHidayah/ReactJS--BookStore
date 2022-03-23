@@ -29,6 +29,11 @@ class Card extends Component {
                         <button className="btn btn-sm btn-danger m-1" onClick={this.props.onDrop}>
                             Hapus
                         </button>
+
+                        {/* button untuk menambah keranjang belanja */}
+                        <button className="btn btn-sm btn-success m-1" onClick={this.props.onCart}>
+                            Tambah Ke Keranjang
+                        </button>
                     </div>
                 </div>
             </div>
